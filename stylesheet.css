@@ -1,0 +1,187 @@
+/*Pre-loader Animation*/
+
+.no-js #loader {
+  display: none;
+}
+
+.js #loader {
+  display: block;
+  position: absolute;
+  left: 100px;
+  top: 0;
+}
+
+.se-pre-con {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: url("http://i358.photobucket.com/albums/oo27/picturesqueworlds/Preloader_3_zpst0blaqic.gif") center no-repeat #fff;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.slider {
+  z-index: 10;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: black;
+}
+/*Navigation Arrows*/
+
+nav {
+  position: absolute;
+  top: 2em;
+  right: 2em;
+  z-index: 99;
+}
+
+nav button {
+  background: transparent;
+  outline: none;
+  border: none;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+nav button i {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 4em;
+}
+
+nav button i:hover {
+  color: white;
+}
+
+nav button.disabled {
+  pointer-events: none;
+  opacity: 0.3;
+}
+/*Menu*/
+
+#navWrap {
+  height: 35px;
+}
+
+#nav {
+  top: 0;
+  width: 100%;
+  height: 55px;
+  position: fixed;
+  padding: 10px;
+  opacity: 0.5;
+  background-color: #FFFFFF;
+  filter: alpha(opacity=50);
+  z-index: 20;
+}
+
+#nav a {
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  position: relative;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-transform: uppercase;
+}
+
+#nav li {
+  display: inline;
+  position: relative;
+  right: -50px;
+}
+
+#nav #pbrand {
+  position: relative;
+  top: -30px;
+}
+
+body {
+  padding-top: 70px;
+}
+
+.intro-name {
+  position: relative;
+  top: 290px;
+  font-size: 60px;
+}
+
+.intro-title {
+  position: relative;
+  top: 280px;
+  font-size: 50px;
+}
+
+.intro .container {
+  position: relative;
+  top: 320px;
+}
+
+.intro h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-right: auto;
+  /*centering the element*/
+  
+  margin-left: auto;
+  padding: 23px;
+  border: 3px solid #ffffff;
+}
+
+.section1,
+.section2,
+.section3 {
+  height: 100%;
+  width: 100%;
+}
+
+.section2 li {
+  display: block;
+}
+
+.section3 li {
+  display: inline;
+}
+
+.line {
+  background-color: black;
+  position: relative;
+  height: 15px;
+  width: 100%;
+  z-index: 20;
+}
+
+input {
+  font-family: Verdana, Arial, Sans-Serif;
+}
+
+#contact-info {
+  padding: 30px;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+  text-align: left;
+}
